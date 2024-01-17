@@ -17,7 +17,8 @@ a {
 button,
 input,
 select,
-textarea {
+textarea,
+span {
   margin: 0;
   padding: 0;
 }
