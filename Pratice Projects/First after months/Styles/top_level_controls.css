@@ -4,3 +4,8 @@
   align-items: center;
   justify-content: center;
 }
+
+/* padding on scroll for page content to align */
+.sticky+#page-body {
+  padding-top: 6vh;
+}
