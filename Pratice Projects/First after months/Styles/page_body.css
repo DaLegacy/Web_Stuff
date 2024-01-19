@@ -57,3 +57,28 @@
   text-shadow: 0px 0px 20px #5ad4dd;
   text-decoration: overline;
 }
+
+.page-body-title span:hover {
+  animation-name: title-spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes title-spin {
+  0% {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+
+  25% {
+    transform: rotate3d(1, 1, 1, -45deg);
+  }
+
+  75% {
+    transform: rotate3d(-1, 1, 1, 45deg);
+  }
+
+  100% {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+}
