@@ -4,8 +4,8 @@
   --main-shadow-color: #5ad4dd;
   --main-hover-text-color: #5ad4dd;
   --main-font-family: Standard, Arial;
-  --main-header-font-size: 0rem;
-  --main-title-font-size: 0rem;
+  --main-header-font-size: 2.5rem;
+  --main-title-font-size: 8rem;
   --main-body-font-size: 0rem;
   --main-footer-font-size: 0rem;
 }
