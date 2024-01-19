@@ -41,14 +41,14 @@
   transition: all .2s ease-in-out;
 }
 
-.page-body-title {
+#page-body-title-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.page-body-title span {
+#page-body-title-section span {
   padding-top: 4vh;
   font-size: 5rem;
   font-weight: bold;
@@ -58,7 +58,7 @@
   text-decoration: overline;
 }
 
-.page-body-title span:hover {
+#page-body-title-section span:hover {
   animation-name: title-spin;
   animation-duration: 4s;
   animation-iteration-count: infinite;
