@@ -1,0 +1,16 @@
+:root {
+  --main-background-color: rgb(70, 70, 70);
+  --main-text-color: #ffffff;
+  --main-shadow-color: #5ad4dd;
+  --main-hover-text-color: #5ad4dd;
+  --main-font-family: Standard, Arial;
+  --main-header-font-size: 0rem;
+  --main-title-font-size: 0rem;
+  --main-body-font-size: 0rem;
+  --main-footer-font-size: 0rem;
+}
+
+@font-face {
+  font-family: Standard;
+  src: url(../Resources/Fonts/Queensides_Normal.ttf);
+}
