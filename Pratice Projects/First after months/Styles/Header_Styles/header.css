@@ -24,29 +24,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.navigation-links {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  font-weight: bold;
-  color: var(--main-text-color);
-  font-family: var(--main-font-family);
-  font-size: var(--main-header-font-size);
-  text-shadow: 0px 0px 20px var(--main-shadow-color);
-}
-
-.navigation-links span {
-  text-decoration: underline;
-  transition: all .2s ease-in-out;
-}
-
-.navigation-links span:hover {
-  color: var(--main-hover-text-color);
-  transform: scale(1.2);
-}
-
-.disable {
-  text-decoration: none !important;
-  pointer-events: none;
-}
