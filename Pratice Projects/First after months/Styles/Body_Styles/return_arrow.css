@@ -1,4 +1,4 @@
-#scroll-arrow {
+#return-arrow {
   display: none;
   position: fixed;
   flex-direction: column;
@@ -8,13 +8,13 @@
   right: 50px;
 }
 
-#scroll-arrow i {
+#return-arrow i {
   scale: 2.5;
   color: var(--main-text-color);
   box-shadow: 0px 0px 15px var(--main-shadow-color);
 }
 
-#scroll-arrow i:hover {
+#return-arrow i:hover {
   scale: 3;
   box-shadow: 0px 5px 20px var(--main-shadow-color) inset;
   transition: all .2s ease-in-out;
