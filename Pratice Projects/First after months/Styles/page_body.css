@@ -1,16 +1,11 @@
-@font-face {
-  font-family: Standard;
-  src: url(../Resources/Fonts/Queensides_Normal.ttf);
-}
-
 #page-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(70, 70, 70);
+  background-color: var(--main-background-color);
   width: 100%;
   height: 200vh;
-  box-shadow: 0px 10px 40px #5ad4dd inset;
+  box-shadow: 0px 10px 40px var(--main-shadow-color) inset;
 }
 
 #scroll-arrow {
@@ -32,12 +27,12 @@
 #scroll-arrow i {
   scale: 2.5;
   color: white;
-  box-shadow: 0px 0px 15px #5ad4dd;
+  box-shadow: 0px 0px 15px var(--main-shadow-color);
 }
 
 #scroll-arrow i:hover {
   scale: 3;
-  box-shadow: 0px 5px 20px #5ad4dd inset;
+  box-shadow: 0px 5px 20px var(--main-shadow-color) inset;
   transition: all .2s ease-in-out;
 }
 
@@ -53,32 +48,11 @@
   font-size: 5rem;
   font-weight: bold;
   font-family: Standard, Arial;
-  color: white;
-  text-shadow: 0px 0px 20px #5ad4dd;
+  color: var(--main-text-color);
+  text-shadow: 0px 0px 20px var(--main-shadow-color);
   text-decoration: overline;
 }
 
 #page-body-title-section span:hover {
-  animation-name: title-spin;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes title-spin {
-  0% {
-    transform: rotate3d(1, 1, 1, 0deg);
-  }
-
-  25% {
-    transform: rotate3d(1, 1, 1, -45deg);
-  }
-
-  75% {
-    transform: rotate3d(-1, 1, 1, 45deg);
-  }
-
-  100% {
-    transform: rotate3d(1, 1, 1, 0deg);
-  }
+  animation: title-rotate 4s infinite ease-in-out;
 }

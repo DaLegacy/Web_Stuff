@@ -1,17 +1,12 @@
-@font-face {
-  font-family: Standard;
-  src: url(../Resources/Fonts/Queensides_Normal.ttf);
-}
-
 #header {
   display: grid;
-  grid-template-columns: auto auto auto;
   gap: 10px;
-  background-color: rgb(70, 70, 70);
   width: 100%;
   height: 10vh;
-  box-shadow: 0px 10px 40px #5ad4dd;
   z-index: 999;
+  grid-template-columns: auto auto auto;
+  background-color: var(--main-background-color);
+  box-shadow: 0px 10px 40px var(--main-shadow-color);
 }
 
 .sticky {
@@ -37,8 +32,8 @@
   font-size: 1.5rem;
   font-weight: bold;
   font-family: Standard, Arial;
-  color: white;
-  text-shadow: 0px 0px 20px #5ad4dd;
+  color: var(--main-text-color);
+  text-shadow: 0px 0px 20px var(--main-shadow-color);
 }
 
 .navigation-links span {
@@ -47,7 +42,7 @@
 }
 
 .navigation-links span:hover {
-  color: #5ad4dd;
+  color: var(--main-hover-text-color);
   transform: scale(1.2);
 }
 
