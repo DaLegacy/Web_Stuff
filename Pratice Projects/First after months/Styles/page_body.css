@@ -54,5 +54,5 @@
 }
 
 #page-body-title-section span:hover {
-  animation: title-rotate 4s infinite ease-in-out;
+  animation: title-sway 4s infinite ease-in-out;
 }
