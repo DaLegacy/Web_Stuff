@@ -14,3 +14,11 @@ html {
 .sticky+#page-body {
   padding-top: 6vh;
 }
+
+/* grid layout for all grid column classes *CAN BE OVERRIDEN* */
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
