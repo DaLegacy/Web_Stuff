@@ -1,6 +1,6 @@
 window.addEventListener('scroll', checkScrollPosition);
 
-var scrollUpElement = document.getElementById("scroll-arrow");
+var scrollUpElement = document.getElementById("return-arrow");
 scrollUpElement.addEventListener('click', ScrollUp);
 
 function checkScrollPosition() {
