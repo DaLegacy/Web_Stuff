@@ -18,3 +18,13 @@
     scale: 1;
   }
 }
+
+@keyframes rotate-360 {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
