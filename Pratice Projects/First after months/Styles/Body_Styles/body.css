@@ -5,5 +5,5 @@
   width: 100%;
   height: 200vh;
   background-color: var(--main-background-color);
-  box-shadow: 0px 10px 40px var(--main-shadow-color) inset;
+  box-shadow: 0px 0px 150px var(--main-shadow-color) inset;
 }
