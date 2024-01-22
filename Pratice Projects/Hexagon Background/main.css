@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+}
+
+.main {
+  position: fixed;
+  inset: calc(-1*var(--s));
+  display: flex;
+  --s: 100px;
+  --m: 2px;
+  --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px);
+}
+
+.container {
+  font-size: 0;
+}
+
+#light {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -25%);
+  width: 25rem;
+  height: 25rem;
+  filter: blur(15px);
+  background: linear-gradient(90deg, #335bf4, #2ae9c9 100%);
+  z-index: 0;
+}
+
+.hex {
+  width: var(--s);
+  margin: var(--m);
+  height: calc(var(--s) * 1.1547);
+  display: inline-block;
+  font-size: initial;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  margin-bottom: calc(var(--m) - var(--s) * 0.2886);
+  z-index: 1;
+  background-color: rgb(70, 70, 70);
+}
+
+.container::before {
+  content: "";
+  width: calc(var(--s)/2 + var(--m));
+  float: left;
+  height: 100%;
+  shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 3px), #000 0 var(--f));
+  background-color: yellow;
+}
