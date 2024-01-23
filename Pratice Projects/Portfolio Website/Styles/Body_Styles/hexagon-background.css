@@ -11,17 +11,6 @@
   font-size: 0;
 }
 
-#light {
-  position: fixed;
-  transform: translate(-50%, -50%);
-  width: 40rem;
-  height: 40rem;
-  filter: blur(15px);
-  background: linear-gradient(90deg, #335bf4, #2ae9c9 100%);
-  border-radius: 50%;
-  z-index: 0;
-}
-
 .hex {
   width: var(--s);
   margin: var(--m);
