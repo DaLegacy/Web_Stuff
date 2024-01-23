@@ -5,8 +5,8 @@ var hex_container = document.getElementById("hex-container");
 window.addEventListener("load", generateHexagonsOnScreen);
 window.addEventListener("resize", generateHexagonsOnScreen);
 
-const hexHeight = 115;
-const hexWidth = 100;
+const hexHeight = 93;
+const hexWidth = 80;
 
 function generateHexagonsOnScreen() {
   var numRows = Math.ceil(main.offsetHeight / hexHeight);

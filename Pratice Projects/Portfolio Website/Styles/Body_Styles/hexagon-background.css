@@ -1,5 +1,5 @@
 #hex-filler-container {
-  --width: 100px;
+  --width: 80px;
   --height: calc(var(--width) * 1.1547);
   --margin: 2px;
   --f: calc(var(--width) * 1.732 + 4 * var(--margin) - 1px);
