@@ -5,12 +5,21 @@
   align-items: center;
 }
 
-.socials i {
-  scale: 2.5;
+.socials span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 25%;
+  padding: 1px;
 }
 
 #youtube {
-  background-color: red;
-  color: white;
+  color: red;
 }
 
+.socials span:hover {
+  scale: 1.5;
+  transition: all .2s ease-in-out;
+}
