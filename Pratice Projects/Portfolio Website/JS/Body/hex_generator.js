@@ -21,7 +21,7 @@ function generateHexagonsOnScreen() {
     while (hex_container.children.length >= requiredNumOfShapes) {
       hex_container.removeChild(hex_container.lastChild);
     }
-    log(numRows, numShapesPerRow, requiredNumOfShapes, numShapesCreated);
+    log(numRows, numShapesPerRow, requiredNumOfShapes);
     return;
   }
 
