@@ -1,5 +1,5 @@
 var body = document.getElementById("body");
-var main = document.getElementById("hex-filler-container");
+var hexFillerContainer = document.getElementById("hex-filler-container");
 var hexContainer = document.getElementById("hex-container");
 
 window.addEventListener("load", generateHexagonsOnScreen);
@@ -9,8 +9,8 @@ const hexHeight = 93;
 const hexWidth = 80;
 
 function generateHexagonsOnScreen() {
-  var numRows = Math.ceil(main.offsetHeight / hexHeight);
-  var numShapesPerRow = Math.ceil(main.offsetWidth / hexWidth) + 4;
+  var numRows = Math.ceil(hexFillerContainer.offsetHeight / hexHeight);
+  var numShapesPerRow = Math.ceil(hexFillerContainer.offsetWidth / hexWidth) + 4;
   var requiredNumOfShapes = getRequiredNumberOfHexagonsNeededToFillScreen(numRows, numShapesPerRow);
 
   if (requiredNumOfShapes == hexContainer.children.length) {
