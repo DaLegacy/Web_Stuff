@@ -1,6 +1,6 @@
 var body = document.getElementById("body");
 var main = document.getElementById("hex-filler-container");
-var hex_container = document.getElementById("hex-container");
+var hexContainer = document.getElementById("hex-container");
 
 window.addEventListener("load", generateHexagonsOnScreen);
 window.addEventListener("resize", generateHexagonsOnScreen);
@@ -13,13 +13,13 @@ function generateHexagonsOnScreen() {
   var numShapesPerRow = Math.ceil(main.offsetWidth / hexWidth) + 4;
   var requiredNumOfShapes = getRequiredNumberOfHexagonsNeededToFillScreen(numRows, numShapesPerRow);
 
-  if (requiredNumOfShapes == hex_container.children.length) {
+  if (requiredNumOfShapes == hexContainer.children.length) {
     return;
   }
 
-  if (requiredNumOfShapes <= hex_container.children.length) {
-    while (hex_container.children.length >= requiredNumOfShapes) {
-      hex_container.removeChild(hex_container.lastChild);
+  if (requiredNumOfShapes <= hexContainer.children.length) {
+    while (hexContainer.children.length >= requiredNumOfShapes) {
+      hexContainer.removeChild(hexContainer.lastChild);
     }
     log(numRows, numShapesPerRow, requiredNumOfShapes);
     return;
@@ -29,7 +29,7 @@ function generateHexagonsOnScreen() {
     for (j = 0; j <= numShapesPerRow; j++) {
       var newDiv = document.createElement("div");
       newDiv.classList.add("hex");
-      hex_container.appendChild(newDiv);
+      hexContainer.appendChild(newDiv);
     }
   }
 
