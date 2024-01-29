@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#body{
+  width: 600px;
+  height: 1500px;
+  background-color: black;
+}
+
+#circle{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+}
