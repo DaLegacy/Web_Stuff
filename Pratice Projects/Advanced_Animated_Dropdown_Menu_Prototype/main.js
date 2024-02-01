@@ -1,12 +1,13 @@
-var dropDown = document.getElementsByClassName('dropdown')[0];
-var content = document.getElementsByClassName('content')[0];
-var child = document.getElementsByClassName('child')[0];
-var numChildren = document.getElementsByClassName('child').length;
+const dropDown = document.getElementsByClassName('dropdown')[0];
+const content = document.getElementsByClassName('content')[0];
+const child = document.getElementsByClassName('child')[0];
+const numChildren = document.getElementsByClassName('child').length;
 var contentHeight;
-var contentWidth;
 
-// On DOMCOntentLoaded Gather information about chidren and the the contentHeight for the dropdown. 
-// Future improvements: Use cookies to store the contentHeight so this doesn't have to be executed every time the page is refreshed.
+// On DOMCOntentLoaded Gather information about chidren and the the contentHeight for the dropdown. This can be improved to work with a much better updating time instead of re-loading the page all the time if things change within the variables. (Thing for later)
+
+// Future improvements: Use cookies to store the contentHeight so this doesn't have to be executed every time the page is refreshed. Add if statement if the height is available and return;
+
 window.addEventListener('DOMContentLoaded', (e) =>{
   content.style.display = 'block';
   contentHeight = child.offsetHeight * numChildren;
