@@ -3,8 +3,7 @@
   transform: translate(-50%, -50%);
   width: 40rem;
   height: 40rem;
-  filter: blur(15px);
+  filter: blur(10px);
   background: linear-gradient(90deg, #335bf4, var(--main-hover-text-color) 75%);
   border-radius: 50%;
-  z-index: 0;
 }
