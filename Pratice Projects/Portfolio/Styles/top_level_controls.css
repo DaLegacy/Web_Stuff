@@ -8,10 +8,11 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--soft-black);
 }
 
 /* padding on scroll for page content to align */
-.sticky+#page-body {
+.sticky+#body {
   padding-top: 6vh;
 }
 
