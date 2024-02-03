@@ -13,7 +13,7 @@ html {
 
 /* padding on scroll for page content to align */
 .sticky+#body {
-  padding-top: 6vh;
+  padding-top: 5vh;
 }
 
 /* grid layout for all grid column classes *CAN BE OVERRIDEN* */

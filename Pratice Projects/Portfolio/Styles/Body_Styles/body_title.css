@@ -17,7 +17,3 @@
   user-select: none;
   cursor: none;
 }
-
-#body-title-section span:hover {
-  animation: title-sway 4s infinite ease-in-out;
-}
