@@ -1,0 +1,70 @@
+/* Animation Utility Classes */
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate.animation--infinite {
+  animation-iteration-count: infinite;
+}
+
+.animate.animation--delay-1s {
+  animation-delay: 1s;
+}
+
+.animate.animation--fast {
+  animation-duration: 0.6s;
+}
+
+.animate.animation--moderate {
+  animation-duration: 1.5s;
+}
+
+.animate.animation--slow {
+  animation-duration: 3s;
+}
+
+/* Animations */
+@keyframes title-sway {
+  0%,
+  100% {
+    transform: rotate3d(1, 1, 1, 0deg);
+    scale: 1;
+  }
+
+  25% {
+    transform: rotate3d(1, 1, 1, -45deg);
+    scale: 0.7;
+  }
+
+  75% {
+    transform: rotate3d(-1, 1, 1, 45deg);
+  }
+}
+
+.title-sway-on-hover:hover {
+  animation-name: title-sway;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+}
