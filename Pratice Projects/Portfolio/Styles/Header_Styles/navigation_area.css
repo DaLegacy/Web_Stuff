@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
+  font-weight: 300;
   gap: 4rem;
   color: var(--main-text-color);
   font-family: var(--main-font-family);

@@ -9,11 +9,11 @@
 #body-title-section span {
   padding-top: 4vh;
   font-size: var(--main-title-font-size);
-  font-weight: bold;
   font-family: var(--main-font-family);
   color: var(--main-text-color);
   text-shadow: 0px 0px 20px var(--main-shadow-color);
-  text-decoration: overline;
   user-select: none;
   cursor: none;
+  text-decoration: overline;
+  letter-spacing: 6px;
 }
