@@ -24,8 +24,7 @@
   src: url(../../Resources/Fonts/Lora-VariableFont_wght.ttf);
 }
 
-
-/* Extra Small Devices (Phones)
+/* Extra Small Devices (Phones) */
 @media only screen and (max-width: 576px) {
   :root {
     --main-header-font-size: 1.25rem;
@@ -37,7 +36,7 @@
   }
 }
 
-/* Small Devices (Tablets)
+/* Small Devices (Tablets) */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   :root {
     --main-header-font-size: 1.75rem;
@@ -49,7 +48,7 @@
   }
 }
 
-/* Medium Devices (Laptops)
+/* Medium Devices (Laptops) */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   :root {
     --main-header-font-size: 2rem;
@@ -61,7 +60,7 @@
   }
 }
 
-/* Large Devices (Desktops)
+/* Large Devices (Desktops) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   :root {
     --main-header-font-size: 2.5rem;
@@ -73,7 +72,7 @@
   }
 }
 
-/* Extra Large Devices (Large Desktops)
+/* Extra Large Devices (Large Desktops) */
 @media only screen and (min-width: 1201px) {
   :root {
     --main-header-font-size: 2.5rem;
@@ -83,5 +82,4 @@
 
     --navigation-gap-size: 4rem;
   }
-} 
-*/
+}

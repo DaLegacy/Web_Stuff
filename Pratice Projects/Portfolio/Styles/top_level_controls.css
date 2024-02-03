@@ -6,8 +6,6 @@ html {
 .page-controller {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: var(--soft-black);
 }
 
@@ -19,9 +17,24 @@ html {
 #inner-body-controller {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 2.25rem;
   width: 75dvw;
-  height: 100%;
+  z-index: 99;
+}
+
+#work-images-section {
+  height: 33dvh;
+  background-color: red;
+}
+
+#about-section {
+  height: 33dvh;
+  background-color: orange;
+}
+
+#socials-section {
+  height: 33dvh;
+  background-color: red;
 }
 
 

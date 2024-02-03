@@ -19,6 +19,7 @@
 }
 
 .navigation-links span:hover,
+.navigation-links span:focus,
 .navigation-links span:focus-within {
   color: var(--main-hover-text-color);
   transform: scale(1.2);

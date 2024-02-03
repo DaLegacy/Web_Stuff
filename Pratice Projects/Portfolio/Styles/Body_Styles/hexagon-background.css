@@ -3,7 +3,7 @@
   --height: calc(var(--width) * 1.1547);
   --margin: 2px;
   --f: calc(var(--width) * 1.732 + 4 * var(--margin) - 1px);
-  --inset: calc(-1*var(--width));
+  --inset: calc(-1 * var(--width));
 
   position: fixed;
   display: flex;
@@ -23,7 +23,6 @@
   clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
   margin-bottom: calc(var(--margin) - var(--width) * 0.2886);
   background-color: rgb(70, 70, 70);
-  z-index: 1;
 }
 
 #hex-container::before {
@@ -31,5 +30,8 @@
   width: calc(var(--width) / 2 + var(--margin));
   float: left;
   height: 100%;
-  shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 3px), #000 0 var(--f));
+  shape-outside: repeating-linear-gradient(
+    #0000 0 calc(var(--f) - 3px),
+    #000 0 var(--f)
+  );
 }

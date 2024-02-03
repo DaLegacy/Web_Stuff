@@ -1,156 +1,94 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>MJ's Portfolio</title>
 
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="HTML, CSS, JS" />
-    <meta name="description" content="Practice Web after months" />
-    <meta name="author" content="DaLegacy" />
-    <meta nane="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <title>MJ's Portfolio</title>
 
-    <!-- Other links -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Reusable_Content/variables.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Reusable_Content/animations_utility.css"
-    />
-    <link rel="stylesheet" type="text/css" href="../Styles/reset.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/top_level_controls.css"
-    />
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="HTML, CSS, JS" />
+  <meta name="description" content="Practice Web after months" />
+  <meta name="author" content="DaLegacy" />
+  <meta nane="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Header links -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Header_Styles/main_header_area.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Header_Styles/navigation_area.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Header_Styles/socials_area.css"
-    />
+  <!-- Other links -->
+  <link rel="stylesheet" href="../Styles/Reusable_Content/variables.css" />
+  <link rel="stylesheet" href="../Styles/Reusable_Content/animations_utility.css" />
+  <link rel="stylesheet" href="../Styles/reset.css" />
+  <link rel="stylesheet" href="../Styles/top_level_controls.css" />
 
-    <!-- Body links -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Body_Styles/body.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Body_Styles/body_title.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Body_Styles/return_arrow.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Body_Styles/work_images_section.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Body_Styles/cursor_light.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Body_Styles/hexagon-background.css"
-    />
+  <!-- Header links -->
+  <link rel="stylesheet" href="../Styles/Header_Styles/main_header_area.css" />
+  <link rel="stylesheet" href="../Styles/Header_Styles/navigation_area.css" />
 
-    <!-- Footer links -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Styles/Footer_Styles/footer.css"
-    />
+  <!-- Body links -->
+  <link rel="stylesheet" href="../Styles/Body_Styles/body.css" />
+  <link rel="stylesheet" href="../Styles/Body_Styles/body_title.css" />
+  <link rel="stylesheet" href="../Styles/Body_Styles/return_arrow.css" />
+  <link rel="stylesheet" href="../Styles/Body_Styles/work_images_section.css" />
+  <link rel="stylesheet" href="../Styles/Body_Styles/cursor_light.css" />
+  <link rel="stylesheet" href="../Styles/Body_Styles/hexagon-background.css" />
 
-    <!-- External links -->
-    <link
-      href="https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up-r.css"
-      rel="stylesheet"
-    />
+  <!-- Footer links -->
+  <link rel="stylesheet" href="../Styles/Footer_Styles/footer.css" />
 
-    <script
-      src="https://kit.fontawesome.com/80138d4295.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+  <!-- External links -->
+  <link href="https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up-r.css" rel="stylesheet" />
 
-  <body class="page-controller">
-    <div id="header">
-      <div class="navigation-links">
-        <span><a href="">Home</a></span>
-        <span class="disable">&nbsp;|&nbsp;</span>
-        <span><a href="">About</a></span>
-        <span class="disable">&nbsp;|&nbsp;</span>
-        <span><a href="">Dev</a></span>
-        <span class="disable">&nbsp;|&nbsp;</span>
-        <span><a href="">Samples</a></span>
-        <span class="disable">&nbsp;|&nbsp;</span>
-        <span><a href="">Socials</a></span>
-      </div>
+  <script src="https://kit.fontawesome.com/80138d4295.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="page-controller">
+  <div id="header">
+    <div class="navigation-links">
+      <span><a href="">Home</a></span>
+      <span class="disable">&nbsp;|&nbsp;</span>
+      <span><a href="">About</a></span>
+      <span class="disable">&nbsp;|&nbsp;</span>
+      <span><a href="">Dev</a></span>
+      <span class="disable">&nbsp;|&nbsp;</span>
+      <span><a href="">Samples</a></span>
+      <span class="disable">&nbsp;|&nbsp;</span>
+      <span><a href="">Socials</a></span>
+    </div>
+  </div>
+
+  <div id="body">
+    <div id="light"></div>
+    <div id="hex-filler-container">
+      <div id="hex-container"></div>
+    </div>
+    <div id="return-arrow">
+      <i class="gg-arrow-up-r"></i>
     </div>
 
-    <div id="body">
-      <div id="light"></div>
-      <div id="hex-filler-container">
-        <div id="hex-container"></div>
-      </div>
+    <div id="inner-body-controller">
+      <section id="body-title-section">
+        <span class="animate animation--slow title-sway-on-hover">Portfolio</span>
+      </section>
 
-      <div id="inner-body-controller">
-        <div id="return-arrow">
-          <i class="gg-arrow-up-r"></i>
-        </div>
-        <section id="body-title-section">
-          <span class="animate animation--slow title-sway-on-hover"
-            >Portfolio</span
-          >
-        </section>
+      <section id="work-images-section"></section>
 
-        <section id="work-images-section"></section>
+      <section id="about-section"></section>
 
-        <section id="about-section"></section>
-
-        <section id="socials-section"></section>
-      </div>
+      <section id="socials-section"></section>
     </div>
+  </div>
 
-    <div id="footer"></div>
+  <div id="footer"></div>
 
-    <!-- Other Scripts -->
-    <script
-      src="../JS/Animation_Listeners/bounce_animation_listener.js"
-      defer
-    ></script>
+  <!-- Other Scripts -->
+  <script src="../JS/Animation_Listeners/bounce_animation_listener.js" defer></script>
 
-    <!-- Header scripts -->
-    <script src="../JS/Header/sticky_header.js" defer></script>
+  <!-- Header scripts -->
+  <script src="../JS/Header/sticky_header.js" defer></script>
 
-    <!-- Body scripts -->
-    <script src="../JS/Body/return_arrow.js" defer></script>
-    <script src="../JS/Body/light_follow_curser.js" defer></script>
-    <script src="../JS/Body/hex_generator.js" defer></script>
+  <!-- Body scripts -->
+  <script src="../JS/Body/return_arrow.js" defer></script>
+  <script src="../JS/Body/light_follow_curser.js" defer></script>
+  <script src="../JS/Body/hex_generator.js" defer></script>
 
-    <!-- Footer scripts -->
-  </body>
+  <!-- Footer scripts -->
+</body>
+
 </html>
