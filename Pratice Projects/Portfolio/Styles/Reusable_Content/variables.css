@@ -10,6 +10,8 @@
   --main-title-font-size: 8rem;
   --main-body-font-size: 0rem;
   --main-footer-font-size: 0rem;
+
+  --navigation-gap-size: 4rem;
 }
 
 @font-face {
@@ -21,3 +23,65 @@
   font-family: StandardV2;
   src: url(../../Resources/Fonts/Lora-VariableFont_wght.ttf);
 }
+
+
+/* Extra Small Devices (Phones)
+@media only screen and (max-width: 576px) {
+  :root {
+    --main-header-font-size: 1.25rem;
+    --main-title-font-size: 8rem;
+    --main-body-font-size: 0rem;
+    --main-footer-font-size: 0rem;
+
+    --navigation-gap-size: 2rem;
+  }
+}
+
+/* Small Devices (Tablets)
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  :root {
+    --main-header-font-size: 1.75rem;
+    --main-title-font-size: 8rem;
+    --main-body-font-size: 0rem;
+    --main-footer-font-size: 0rem;
+
+    --navigation-gap-size: 2rem;
+  }
+}
+
+/* Medium Devices (Laptops)
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  :root {
+    --main-header-font-size: 2rem;
+    --main-title-font-size: 8rem;
+    --main-body-font-size: 0rem;
+    --main-footer-font-size: 0rem;
+
+    --navigation-gap-size: 3rem;
+  }
+}
+
+/* Large Devices (Desktops)
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  :root {
+    --main-header-font-size: 2.5rem;
+    --main-title-font-size: 8rem;
+    --main-body-font-size: 0rem;
+    --main-footer-font-size: 0rem;
+
+    --navigation-gap-size: 4rem;
+  }
+}
+
+/* Extra Large Devices (Large Desktops)
+@media only screen and (min-width: 1201px) {
+  :root {
+    --main-header-font-size: 2.5rem;
+    --main-title-font-size: 8rem;
+    --main-body-font-size: 0rem;
+    --main-footer-font-size: 0rem;
+
+    --navigation-gap-size: 4rem;
+  }
+} 
+*/

@@ -3,20 +3,23 @@
   align-items: center;
   justify-content: center;
   font-weight: 300;
-  gap: 4rem;
+  gap: var(--navigation-gap-size);
   color: var(--main-text-color);
   font-family: var(--main-font-family);
   font-size: var(--main-header-font-size);
   text-shadow: 0px 0px 20px var(--main-shadow-color);
   user-select: none;
+
+  transition: all 100ms linear;
 }
 
 .navigation-links span {
   text-decoration: underline;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.navigation-links span:hover {
+.navigation-links span:hover,
+.navigation-links span:focus-within {
   color: var(--main-hover-text-color);
   transform: scale(1.2);
 }

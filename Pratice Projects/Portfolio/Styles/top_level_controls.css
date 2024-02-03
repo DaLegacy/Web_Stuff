@@ -12,6 +12,16 @@ html {
 }
 
 /* padding on scroll for page content to align */
-.sticky+#body {
+.sticky + #body {
   padding-top: 5vh;
 }
+
+#inner-body-controller {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 75dvw;
+  height: 100%;
+}
+
+
