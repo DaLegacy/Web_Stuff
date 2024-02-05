@@ -12,7 +12,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: var(--soft-black);
   height: 100vh;
 }
 
