@@ -1,7 +1,7 @@
 #header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: 8dvh;
   z-index: 999;
   background-color: var(--soft-black);
